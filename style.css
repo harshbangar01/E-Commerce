@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:rrot {
+    --color-secondary: #2e2e2e;
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --color-gray:#7a7a7a;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    min-width: 104rem;
+    margin: 0 auto;
+    padding: 0rem 1.5rem;
+}
