@@ -65,3 +65,12 @@ body{
 .logo-box img{
     width: 10rem;
 }
+
+.nav_toggler{
+    display: none;
+}
+
+.nav_toggle{
+    width: 2rem;
+}
+
