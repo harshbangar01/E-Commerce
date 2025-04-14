@@ -728,3 +728,73 @@ summary::marker {
  text-decoration: line-through;
  /* text-decoration: underline; */
 }
+
+@media (max-width:600px) {
+
+    nav h1{
+        font-size: 1.1rem;
+        margin-top: 6px;
+    }
+
+    nav button {
+        font-size: 0.6rem;
+    }
+
+    nav button svg{
+        height: 3.8vw;
+    }
+
+    .nav-part2 h4 {
+      display: none;
+    }
+
+    #nav-bottom {
+        top: 55%;
+    }
+    .nav-elem  {
+        display: none;
+    }
+
+    #nav-bottom {
+        display: none;
+    }
+
+    #page1 h1{
+        position: relative;
+        bottom: 80px;
+        font-size: 9.8vw;
+    }
+
+    #page1 p {
+        font-size: 2.6vw;
+        position: relative;
+        bottom: 8%;
+    }
+
+    #page1-something h4{
+       
+        font-size: 2.1vw;
+    }
+
+    #page1-something{
+       position: relative;
+       bottom: 6%;
+    }
+
+    #moving-div .move img{
+        height: 22vw;
+    }
+
+    #moving-div{
+        position: relative;
+        bottom: 0.05%;
+    }
+
+    #moving-div .move {
+        animation-duration: 15s;
+    }
+
+    #page7 h1 {
+        font-size: 13vw;
+    }
+}
